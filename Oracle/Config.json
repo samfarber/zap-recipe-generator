@@ -1,0 +1,29 @@
+{
+
+	"title": "Recipe Generator Oracle",
+	"public_key": "0xEbA4ed99a55751c35DC914a7452B8766DaFe7221",
+	"NODE_URL": "wss://kovan.infura.io/ws/xeb916AFjrcttuQlezyq",
+	"mnemonic": "train false salmon kidney travel engage garbage skull space space effort write",
+	"STATUS_URL":"",
+	"EndpointSchema": {
+		"name": "Recipe Generator",
+		"curve": [2,
+			5,
+			2,
+			1000,
+			2,
+			0,
+			3,
+			1000000000000000000
+		],
+		"broker": "",
+		"md": "Recipe generator, returns recipes based on ingredients inputted",
+		"queryList": [{
+			"query": "RecipeResult",
+			"params": ["[Ingredients]"],
+			"dynamic": false,
+			"responseType": "[string]"
+		}]
+	}
+
+}
